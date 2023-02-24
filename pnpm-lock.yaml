@@ -1,0 +1,12 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      hello: workspace:*
+    dependencies:
+      hello: link:packages/hello
+
+  packages/hello:
+    specifiers: {}

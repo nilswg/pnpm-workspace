@@ -1,0 +1,6 @@
+{
+  "name": "pnpm-workspace",
+  "dependencies": {
+    "hello": "workspace:*"
+  }
+}
