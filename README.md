@@ -1,7 +1,9 @@
 # pnpm-workspace
+configure my pnpm workspace.
 
+<br>
 
-## How to use it ?
+## Settings
 
 Create folders: apps\、packages\
 ```bash
@@ -19,21 +21,28 @@ packages:
   - 'packages/**'
 ```
 
+<br>
+
+## Test packages/hello
+let's create a hello module in packages folder
 
 ```json
 // @file: package.json
 {
   "name": "pnpm-workspace",
   "dependencies": {
-    "hello": "workspace:*",  // <= your custom package can be shared to other app
+    "hello": "workspace:*",  // <= your custom module can be shared to other app
 }
 ```
 
-Test packages/hello
 ```bash
 $ node index.js
+[from hello module]: hello!
 ```
 
+<br>
+
+## Create Next App in apps folder.
 Now, we create a my-next-app in apps/
 
 ```
