@@ -3,6 +3,24 @@ configure my pnpm workspace.
 
 <br>
 
+## Quick Start
+```bash
+# The way you choose to install pnpm depends on your environment.
+$ npm install -g pnpm 
+
+# Make sure you have PNPM installed already.
+$ pnpm -v
+
+# Use pnpm install to initialize the workspace.
+$ pnpm install
+
+# Now you can find the package "hello" installed in your workspace.
+dependencies:
++ hello <- packages/hello
+```
+
+<br>
+
 ## Settings
 
 Create folders: apps\、packages\
